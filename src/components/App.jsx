@@ -23,12 +23,12 @@ function App() {
       <Header />
       <Navigation />
       <Switch>
-        <Route exact path='/' component={MainSplash} />
+        <Route exact path="/" component={MainSplash} />
+        <Route path="/projects" component={ProjectsList} />
+        <Route path="/education" component={EducationList} />
+        <Route path="/interests" component={InterestList} />
+        <Route path="/personal" component={PersonalList} />
         <Route component={Error404} />
-        <Route exact path='/projects' component={ProjectsList} />
-        <Route exact path='/education' component={EducationList} />
-        <Route exact path='/interests' component={InterestList} />
-        <Route exact path='/personal' component={PersonalList} />
       </Switch>
     </div>
   );
