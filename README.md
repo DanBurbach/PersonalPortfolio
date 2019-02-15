@@ -3,7 +3,7 @@ React: Week 1: Friday Solo Project: Using React create a portfolio web app that 
 
 education, work experience, and your technical/personal interests.
 
-##### _Dan Burbach_
+### _Dan Burbach_
 
 ## __Description__
 
