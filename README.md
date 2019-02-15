@@ -2,7 +2,7 @@
 
 ### __Created by Dan Burbach__
 
-React: Week 1: Friday Solo Project: Using React create a portfolio web app that shows your coding projects, 
+React: Week 1: Friday Solo Project: Using React create a portfolio web app that shows your coding projects,
 
 education, work experience, and your technical/personal interests.
 
@@ -11,22 +11,24 @@ education, work experience, and your technical/personal interests.
   This site will list my coding projects, education, work experience, and your technical/personal interests.
 
   Using [Draw.io](https://www.draw.io/), I created a tree component chart to detail the layout of the routing and connectivity:
-  
+
   ![Component Tree](https://raw.githubusercontent.com/DanBurbach/PersonalPortfolio/master/src/assets/PersonalPortfolioTree.jpg)
-  
+
 ## __Future Development__
-  * 
+  *
 
 ## __Setup/Installation Requirements__
 
   * Clone repository
   * Run npm install
+  * npm run start
+  * Open a browser: http://localhost:8080/
   * Enjoy!
 
 ### __Technologies Used__
 
   React, CSS, HTML
-  
+
 ### __Version__
 
 Alpha v0.1
