@@ -1,15 +1,18 @@
-import React from "react";
+import React from 'react';
 import { Link } from 'react-router-dom';
 
-function Navigation(props){
+function Navigation(){
 
 
   return (
     <div>
-      <Link to="/">Home</Link>
+      <Link to="/projectslist">Projects</Link>
+      <Link to="/educationlist">Education</Link>
+      <Link to="/interestslist">Interests</Link>
+      <Link to="/personallist">Personal</Link>
     </div>
 
   );
 }
 
-export default Header;
+export default Navigation;
