@@ -2,10 +2,10 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Header from './Header';
 import Error404 from './Error404';
+import MainSplash from './MainSplash';
 
 
-
-function App(props) {
+function App() {
   return (
     <div>
       <Header />
