@@ -1,9 +1,10 @@
 # Personal Portfolio
+
+### _ Created by Dan Burbach_
+
 React: Week 1: Friday Solo Project: Using React create a portfolio web app that shows your coding projects, 
 
 education, work experience, and your technical/personal interests.
-
-### _Dan Burbach_
 
 ## __Description__
 
