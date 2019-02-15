@@ -29,6 +29,8 @@ education, work experience, and your technical/personal interests.
 
   React, CSS, HTML
 
+  ![react-materialize](https://react-materialize.github.io/#/)
+
 ### __Version__
 
 Alpha v0.1
