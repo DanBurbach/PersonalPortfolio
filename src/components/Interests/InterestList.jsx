@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-function InterestsList() {
+function InterestList() {
   return (
     <div>
       <h3>Interest List</h3>
@@ -9,4 +9,4 @@ function InterestsList() {
   );
 }
 
-export default InterestsList;
+export default InterestList;

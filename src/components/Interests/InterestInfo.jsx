@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function EducationInfo(props){
+function InterestsInfo(props){
   return (
     <div>
       <h3>{props.day} - {props.location}</h3>
@@ -19,4 +19,4 @@ ScheduleLayout.propTypes = {
   booth: PropTypes.string.isRequired
 };
 
-export default EducationInfo;
+export default ScheduleLayout;
