@@ -11,7 +11,7 @@ education, work experience, and your technical/personal interests.
 
   Using [Draw.io](https://www.draw.io/), I created a tree component chart to detail the layout of the routing and connectivity:
   
-  ![Component Tree](https://raw.githubusercontent.com/DanBurbach/PersonalPortfolio/blob/master/src/assets/PersonalPortfolioTree.jpg)
+  ![Component Tree](https://raw.githubusercontent.com/DanBurbach/PersonalPortfolio/master/src/assets/PersonalPortfolioTree.jpg)
   
 ## __Future Development__
   * 
