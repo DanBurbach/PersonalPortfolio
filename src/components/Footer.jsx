@@ -6,7 +6,7 @@ function Bottom(){
     position: 'absolute',
     right: '0',
     bottom: '0',
-    left: '0',
+    left: '0'
   };
 
   const footStyleMain = {
