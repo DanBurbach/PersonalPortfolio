@@ -10,11 +10,10 @@ function Navigation(){
         options={{ closeOnClick: true }}
       >
         <SideNavItem
-          options={{ closeOnClick: true }}
           userView
           user={{
             background: '',
-            image: '',
+            image: '../assets/images/ProfilePic.jpg',
             name: 'Daniel Burbach',
             email: 'ArealEMAIL@email.com'
           }}
@@ -23,10 +22,7 @@ function Navigation(){
         <SideNavItem><Link to="/education">Education</Link></SideNavItem>
         <SideNavItem><Link to="/interests">Interests</Link></SideNavItem>
         <SideNavItem><Link to="/personal">Personal</Link></SideNavItem>
-
         <SideNavItem divider />
-        <SideNavItem subheader>© Daniel Burbach</SideNavItem>
-        <SideNavItem subheader>All Rights Reserved</SideNavItem>
       </SideNav>
 
     </div>

@@ -9,7 +9,7 @@ function MainSplash() {
         bgImage={require('../assets/images/SplashAlhambra1.jpg')}
         bgImageAlt="Alhambra"
         strength={900}
-        >
+      >
         <div style={{ height: '500px' }} />
       </Parallax>
       <div class="section white">
@@ -24,11 +24,9 @@ function MainSplash() {
         bgImage={require('../assets/images/SplashBarcelona1.jpg')}
         bgImageAlt="Barcelona"
         strength={900}
-        >
+      >
         <div style={{ height: '500px' }} />
       </Parallax>
-
-
     </div>
   );
 }

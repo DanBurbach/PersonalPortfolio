@@ -4,9 +4,8 @@ function Bottom(){
 
   const main = {
     position: 'absolute',
-    right: '0',
     bottom: '0',
-    left: '0'
+    width: '100%'
   };
 
   const footStyleMain = {

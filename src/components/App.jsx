@@ -19,10 +19,16 @@ import PersonalList from './Personal/PersonalList';
 
 function App() {
 
+  const mainbuttons = {
+    display: 'inline-block'
+  };
+
   return (
     <div>
-      <Header />
-      <Navigation />
+      <div style={mainbuttons}>
+        <Header />
+        <Navigation />
+      </div>
       <Switch>
         <Route exact path="/" component={MainSplash} />
         <Route path="/projects" component={ProjectsList} />
