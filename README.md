@@ -29,7 +29,9 @@ education, work experience, and your technical/personal interests.
 
   React, CSS, HTML
 
+  ![Materialize](https://materializecss.com/)
   ![react-materialize](https://react-materialize.github.io/#/)
+  ![react-parallax](https://www.npmjs.com/package/react-parallax)
 
 ### __Version__
 
