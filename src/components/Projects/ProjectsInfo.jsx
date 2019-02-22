@@ -12,7 +12,7 @@ function ProjectsInfo(props){
   );
 }
 
-ScheduleLayout.propTypes = {
+ProjectsInfo.propTypes = {
   day: PropTypes.string.isRequired,
   location: PropTypes.string.isRequired,
   hours: PropTypes.string.isRequired,

@@ -12,11 +12,11 @@ function InterestsInfo(props){
   );
 }
 
-ScheduleLayout.propTypes = {
+InterestsInfo.propTypes = {
   day: PropTypes.string.isRequired,
   location: PropTypes.string.isRequired,
   hours: PropTypes.string.isRequired,
   booth: PropTypes.string.isRequired
 };
 
-export default ScheduleLayout;
+export default InterestsInfo;
