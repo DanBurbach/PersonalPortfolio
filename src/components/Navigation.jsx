@@ -5,10 +5,11 @@ import { SideNav, SideNavItem, Button } from 'react-materialize';
 function Navigation(){
   return (
     <div>
+      <div style={MenuButton}>
       <SideNav
         trigger={<Button>Menu</Button>}
-        options={{ closeOnClick: true }}
-      >
+        options={{ closeOnClick: true }}>
+      </div>
         <SideNavItem
           userView
           user={{

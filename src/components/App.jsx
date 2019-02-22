@@ -20,7 +20,11 @@ import PersonalList from './Personal/PersonalList';
 function App() {
 
   const mainbuttons = {
-    display: 'inline-block'
+    display: 'flex',
+    justifyContent: 'left',
+    alignItems: 'center',
+    textDecoration: 'none',
+    backgroundColor: 'grey'
   };
 
   return (
