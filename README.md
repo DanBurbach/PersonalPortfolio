@@ -17,34 +17,34 @@ education, work experience, and your technical/personal interests.
 ## __Future Development__
 
   * Add personal content
-  
+
   * Links to outside work
-  
+
   * Images of activities, travel, concepts, projects and etc.
-  
+
   * Dynamic flow of content (Parallax perfected on each page)
-  
+
   - Possibilities:
-  
+
   contact form: sends an email or somesort of contact directly to me (is this possible?)
-  
+
   animated imagery: using a gif or other file to give the impression of movement
-  
+
   dark mode: because, why not???
-  
+
 
 ## __Setup/Installation Requirements__
 
   * Clone repository
-  
+
   * Open terminal
-  
+
   * Run npm install
-  
+
   * npm run start
-  
+
   * Open a browser: http://localhost:8080/
-  
+
   * Enjoy!
 
 ### __Technologies Used__
@@ -52,10 +52,16 @@ education, work experience, and your technical/personal interests.
   React, CSS, HTML
 
   [Materialize](https://materializecss.com/)
-  
+
+  [Material-UI](https://material-ui.com/)
+
   [react-materialize](https://react-materialize.github.io/#/)
-  
+
   [react-parallax](https://www.npmjs.com/package/react-parallax)
+
+  [react-pure-grid](https://www.npmjs.com/package/react-pure-grid)
+
+  [formspree.io](https://formspree.io/)
 
 ### __Version__
 
