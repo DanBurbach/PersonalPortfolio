@@ -5,9 +5,9 @@ function EducationInfo(props){
   return (
     <div>
       <h3>{props.school} - {props.location}</h3>
-      <p><em>{props.degree}</em></p>
-      <p><em>{props.info}</em></p>
-      <p><em>{props.focus}</em></p>
+      <p>{props.degree}</p>
+      <p>{props.info}</p>
+      <p>{props.focus}</p>
       <hr/>
     </div>
   );

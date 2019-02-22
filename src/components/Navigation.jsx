@@ -19,10 +19,10 @@ function Navigation () {
               <img class="circle" src={ProfilePic}/>
             </p>
             <p>
-              <span class="black-text name">Daniel Burbach</span>
+              <span class="black-text">Daniel Burbach</span>
             </p>
             <p>
-              <span class="black-text email">ArealEMAIL@email.com</span>
+              <span class="black-text">ArealEMAIL@email.com</span>
             </p>
           </div>
         </SideNavItem>
