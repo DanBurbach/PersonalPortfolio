@@ -5,7 +5,7 @@ import { Parallax } from 'react-parallax';
 function MainSplash() {
 
   const mainSplashAnimate = {
-    position: 'fixed',
+    position: 'relative',
     animation:'3s slide-up',
     marginTop: '0%'
   };
@@ -19,7 +19,7 @@ function MainSplash() {
         bgImageAlt="Alhambra"
         strength={900}
       >
-        <div style={{ height: '200px' }} />
+        <div style={{ height: '400px' }} />
       </Parallax>
       <div class="section white">
         <div class="row container">
@@ -34,7 +34,7 @@ function MainSplash() {
         bgImageAlt="Barcelona"
         strength={900}
       >
-        <div style={{ height: '100px' }} />
+        <div style={{ height: '400px' }} />
       </Parallax>
       <div class="section white">
         <div class="row container">
@@ -48,7 +48,7 @@ function MainSplash() {
         bgImageAlt="Barcelona"
         strength={900}
       >
-        <div style={{ height: '100px' }} />
+        <div style={{ height: '400px' }} />
       </Parallax>
       <div class="section white">
         <div class="row container">
@@ -62,7 +62,7 @@ function MainSplash() {
         bgImageAlt="Barcelona"
         strength={900}
       >
-        <div style={{ height: '100px' }} />
+        <div style={{ height: '400px' }} />
       </Parallax>
     </div>
   );

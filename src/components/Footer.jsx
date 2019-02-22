@@ -3,7 +3,7 @@ import React from 'react';
 function Bottom(){
 
   const main = {
-    position: 'absolute',
+    position: 'fixed',
     bottom: '0',
     width: '100%'
   };

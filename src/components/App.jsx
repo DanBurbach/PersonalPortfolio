@@ -7,6 +7,7 @@ import Header from './Header';
 import Navigation from './Navigation';
 import Bottom from './Footer';
 import Error404 from './Error404';
+import ContactMe from './ContactMe';
 
 // main splash page aka Home
 import MainSplash from './MainSplash';
@@ -24,7 +25,8 @@ function App() {
     justifyContent: 'left',
     alignItems: 'center',
     textDecoration: 'none',
-    backgroundColor: 'grey'
+    backgroundColor: 'grey',
+    top: '0'
   };
 
   return (
@@ -39,6 +41,7 @@ function App() {
         <Route path="/education" component={EducationList} />
         <Route path="/interests" component={InterestList} />
         <Route path="/personal" component={PersonalList} />
+        <Route path="/contactme" component={ContactMe} />
         <Route component={Error404} />
       </Switch>
       <Bottom />

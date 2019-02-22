@@ -1,33 +1,48 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { SideNav, SideNavItem, Button } from 'react-materialize';
+import ProfilePic from '../assets/images/ProfilePic.jpg';
 
-function Navigation(){
+
+function Navigation () {
   return (
     <div>
-      <div style={MenuButton}>
       <SideNav
         trigger={<Button>Menu</Button>}
         options={{ closeOnClick: true }}>
-      </div>
-        <SideNavItem
-          userView
-          user={{
-            background: '',
-            image: '../assets/images/ProfilePic.jpg',
-            name: 'Daniel Burbach',
-            email: 'ArealEMAIL@email.com'
-          }}
-        />
+
+        <SideNavItem>
+          <div class="userView">
+            <div class="background">
+            </div>
+            <p>
+              <img class="circle" src={ProfilePic}/>
+            </p>
+            <p>
+              <span class="black-text name">Daniel Burbach</span>
+            </p>
+            <p>
+              <span class="black-text email">ArealEMAIL@email.com</span>
+            </p>
+          </div>
+        </SideNavItem>
+
+        <br/>
+
+        <br/>
+        <SideNavItem divider />
+        <br/>
         <SideNavItem><Link to="/projects">Projects</Link></SideNavItem>
         <SideNavItem><Link to="/education">Education</Link></SideNavItem>
         <SideNavItem><Link to="/interests">Interests</Link></SideNavItem>
         <SideNavItem><Link to="/personal">Personal</Link></SideNavItem>
         <SideNavItem divider />
+        <SideNavItem><Link to="/contactme">Contact Me</Link></SideNavItem>
       </SideNav>
 
     </div>
   );
 }
+
 
 export default Navigation;
