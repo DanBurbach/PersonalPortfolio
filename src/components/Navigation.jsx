@@ -8,7 +8,7 @@ function Navigation () {
   return (
     <div>
       <SideNav
-        trigger={<Button>Menu</Button>}
+        trigger={<Button class="waves-effect waves-light btn">Menu</Button>}
         options={{ closeOnClick: true }}>
 
         <SideNavItem>
