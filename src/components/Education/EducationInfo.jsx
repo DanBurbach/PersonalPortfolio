@@ -4,11 +4,13 @@ import PropTypes from 'prop-types';
 function EducationInfo(props){
   return (
     <div>
-      <h3>{props.school} - {props.location}</h3>
-      <p>{props.degree}</p>
-      <p>{props.info}</p>
-      <p>{props.focus}</p>
-      <hr/>
+      <div class="container">
+        <h4>{props.school}</h4>
+        <h5>{props.location}</h5>
+        <p>{props.degree}</p>
+        <p>{props.info}</p>
+        <p>{props.focus}</p>
+      </div>
     </div>
   );
 }

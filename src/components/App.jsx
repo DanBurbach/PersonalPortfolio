@@ -20,7 +20,7 @@ import PersonalList from './Personal/PersonalList';
 
 function App() {
 
-  const mainbuttons = {
+  const navbutton = {
     display: 'flex',
     justifyContent: 'left',
     alignItems: 'center',
@@ -31,7 +31,7 @@ function App() {
 
   return (
     <div>
-      <div style={mainbuttons}>
+      <div style={navbutton}>
         <Header />
         <Navigation />
       </div>

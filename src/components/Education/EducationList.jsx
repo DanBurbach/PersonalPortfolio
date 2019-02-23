@@ -1,7 +1,7 @@
 import React from 'react';
 import EducationInfo from './EducationInfo';
 
-var masterEducationList = [
+const masterEducationList = [
   {
     school: 'Epicodus',
     location: 'Portland, OR',
@@ -31,7 +31,8 @@ function EducationList(){
   return (
     <div>
       {masterEducationList.map((educationinfo, index) =>
-        <EducationInfo school={educationinfo.school}
+        <EducationInfo
+          school={educationinfo.school}
           location={educationinfo.location}
           degree={educationinfo.degree}
           info={educationinfo.info}
