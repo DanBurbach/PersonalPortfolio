@@ -14,16 +14,19 @@ function Navigation () {
         <SideNavItem>
           <div class="userView">
             <div class="background">
+              <img src="http://www.qygjxz.com/data/out/76/5818681-facets-wallpaper.jpg" z-index="5"/>
+              <div>
+                <img class="circle" z-index="10" src={ProfilePic}/>
+              </div>
             </div>
-            <p>
-              <img class="circle" src={ProfilePic}/>
-            </p>
-            <p>
-              <span class="black-text">Daniel Burbach</span>
-            </p>
-            <p>
-              <span class="black-text">ArealEMAIL@email.com</span>
-            </p>
+            <div>
+              <div>
+                <span class="black-text">Daniel Burbach</span>
+              </div>
+              <div>
+                <span class="black-text">ArealEMAIL@email.com</span>
+              </div>
+            </div>
           </div>
         </SideNavItem>
 
