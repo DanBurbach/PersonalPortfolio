@@ -9,7 +9,7 @@ function ProjectsInfo(props){
         <p><em>{props.description}</em></p>
         <img src={props.screenshot}/>
         <p><em>{props.language}</em></p>
-        <p>{props.link}</p>
+        <a href={props.link}>Link To Project</a>
       </div>
     </div>
   );
