@@ -7,7 +7,7 @@ function ProjectsInfo(props){
       <div class="container">
         <h3>{props.projectname}</h3>
         <p><em>{props.description}</em></p>
-        <p>{props.screenshot}</p>
+        <img src={props.screenshot}/>
         <p><em>{props.language}</em></p>
         <p>{props.link}</p>
       </div>
@@ -18,7 +18,7 @@ function ProjectsInfo(props){
 ProjectsInfo.propTypes = {
   projectname: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
-  screenshot: PropTypes.string.isRequired,
+  screenshot: PropTypes.element.isRequired,
   language: PropTypes.string.isRequired,
   link: PropTypes.string.isRequired
 };

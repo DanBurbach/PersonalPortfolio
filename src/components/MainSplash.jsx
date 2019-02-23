@@ -6,7 +6,7 @@ function MainSplash() {
 
   const mainSplashAnimate = {
     position: 'relative',
-    animation:'3s slide-up',
+    transformOrigin: 'bottom',
     marginTop: '0%'
   };
 
@@ -15,7 +15,7 @@ function MainSplash() {
     <div style = {mainSplashAnimate}>
       <Parallax
         blur={0}
-        bgImage= {require('../assets/images/SplashAlhambra1.jpg')}
+        bgImage= {require('../images/SplashAlhambra1.jpg')}
         bgImageAlt="Alhambra"
         strength={900}
       >
@@ -30,7 +30,7 @@ function MainSplash() {
 
       <Parallax
         blur={0}
-        bgImage={require('../assets/images/SplashBarcelona1.jpg')}
+        bgImage={require('../images/SplashBarcelona1.jpg')}
         bgImageAlt="Barcelona"
         strength={900}
       >
@@ -44,7 +44,7 @@ function MainSplash() {
 
       <Parallax
         blur={0}
-        bgImage={require('../assets/images/SplashBarcelona1.jpg')}
+        bgImage={require('../images/SplashBarcelona1.jpg')}
         bgImageAlt="Barcelona"
         strength={900}
       >
@@ -58,7 +58,7 @@ function MainSplash() {
 
       <Parallax
         blur={0}
-        bgImage={require('../assets/images/SplashBarcelona1.jpg')}
+        bgImage={require('../images/SplashBarcelona1.jpg')}
         bgImageAlt="Barcelona"
         strength={900}
       >
