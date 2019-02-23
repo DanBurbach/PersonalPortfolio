@@ -4,19 +4,23 @@ import PropTypes from 'prop-types';
 function ProjectsInfo(props){
   return (
     <div>
-      <h3>{props.day} - {props.location}</h3>
-      <p><em>{props.hours}</em></p>
-      <p><em>{props.booth}</em></p>
-      <hr/>
+      <div class="container">
+        <h3>{props.projectname}</h3>
+        <p><em>{props.description}</em></p>
+        <p>{props.screenshot}</p>
+        <p><em>{props.language}</em></p>
+        <p>{props.link}</p>
+      </div>
     </div>
   );
 }
 
 ProjectsInfo.propTypes = {
-  day: PropTypes.string.isRequired,
-  location: PropTypes.string.isRequired,
-  hours: PropTypes.string.isRequired,
-  booth: PropTypes.string.isRequired
+  projectname: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  screenshot: PropTypes.string.isRequired,
+  language: PropTypes.string.isRequired,
+  link: PropTypes.string.isRequired
 };
 
 export default ProjectsInfo;
