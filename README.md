@@ -16,8 +16,6 @@ education, work experience, and your technical/personal interests.
 
 ## __Future Development__
 
-  * Add personal content
-
   * Links to outside work
 
   * Images of activities, travel, concepts, projects and etc.
@@ -25,10 +23,6 @@ education, work experience, and your technical/personal interests.
   * Dynamic flow of content (Parallax perfected on each page)
 
   - Possibilities:
-
-  contact form: sends an email or somesort of contact directly to me (is this possible?)
-
-  animated imagery: using a gif or other file to give the impression of movement
 
   dark mode: because, why not???
 
@@ -52,18 +46,25 @@ education, work experience, and your technical/personal interests.
   React, CSS, HTML
 
   [Materialize](https://materializecss.com/)
+  UI effects
 
   [Material-UI](https://material-ui.com/)
+  UI effects
 
   [react-materialize](https://react-materialize.github.io/#/)
+  UI effects
 
   [react-parallax](https://www.npmjs.com/package/react-parallax)
+  UI image effects
 
   [react-pure-grid](https://www.npmjs.com/package/react-pure-grid)
+  UI layout
 
   [formspree.io](https://formspree.io/)
+  email contact form
 
   [particles.js](https://vincentgarreau.com/particles.js/)
+  background UI effects
 
 ### __Version__
 
