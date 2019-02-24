@@ -1,6 +1,6 @@
 import React from 'react';
 import { Parallax } from 'react-parallax';
-
+import ParticlesDisplay from './ParticlesDisplay';
 
 function MainSplash() {
 
@@ -13,6 +13,7 @@ function MainSplash() {
 
   return (
     <div style = {mainSplashAnimate}>
+    <ParticlesDisplay/>
       <Parallax
         blur={0}
         bgImage= {require('../images/SplashAlhambra1.jpg')}

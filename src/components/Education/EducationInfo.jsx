@@ -1,9 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import ParticlesDisplay from '../ParticlesDisplay';
+
+const container = {
+  color: 'white'
+}
 
 function EducationInfo(props){
   return (
     <div>
+    <ParticlesDisplay/>
       <div class="container">
         <h4>{props.school}</h4>
         <h5>{props.location}</h5>

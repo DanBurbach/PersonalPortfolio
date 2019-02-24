@@ -1,13 +1,20 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import ParticlesDisplay from '../ParticlesDisplay';
+
+const container = {
+  color: 'white'
+}
 
 function InterestsInfo(props){
   return (
     <div>
+    <ParticlesDisplay/>
+    <div class="container">
       <h3>{props.day} - {props.location}</h3>
       <p><em>{props.hours}</em></p>
       <p><em>{props.booth}</em></p>
-      <hr/>
+      </div>
     </div>
   );
 }

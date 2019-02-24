@@ -18,14 +18,14 @@ import EducationList from './Education/EducationList';
 import InterestList from './Interests/InterestList';
 import PersonalList from './Personal/PersonalList';
 
-function App() {
+function App () {
 
   const navbutton = {
     display: 'flex',
     justifyContent: 'left',
     alignItems: 'center',
     textDecoration: 'none',
-    backgroundColor: 'grey',
+    backgroundColor: '#666666',
     top: '0'
   };
 
@@ -46,7 +46,7 @@ function App() {
       </Switch>
       <Bottom />
     </div>
-  );
-}
+    );
+  }
 
 export default App;

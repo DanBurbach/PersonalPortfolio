@@ -63,6 +63,8 @@ education, work experience, and your technical/personal interests.
 
   [formspree.io](https://formspree.io/)
 
+  [particles.js](https://vincentgarreau.com/particles.js/)
+
 ### __Version__
 
 Alpha v0.1
