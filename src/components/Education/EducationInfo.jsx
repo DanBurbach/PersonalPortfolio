@@ -2,20 +2,25 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import ParticlesDisplay from '../ParticlesDisplay';
 
-const container = {
-  color: 'white'
-}
+const letters = {
+  color: 'white',
+
+};
 
 function EducationInfo(props){
   return (
     <div>
-    <ParticlesDisplay/>
+      <ParticlesDisplay/>
       <div class="container">
-        <h4>{props.school}</h4>
-        <h5>{props.location}</h5>
-        <p>{props.degree}</p>
-        <p>{props.info}</p>
-        <p>{props.focus}</p>
+        <div style={letters}>
+          <hr/>
+          <h5>{props.school}</h5>
+          <h6>{props.location}</h6>
+          <p>{props.degree}</p>
+          <p>{props.info}</p>
+          <p>{props.focus}</p>
+          <hr/>
+        </div>
       </div>
     </div>
   );

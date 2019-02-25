@@ -46,7 +46,7 @@ function App () {
       </Switch>
       <Bottom />
     </div>
-    );
-  }
+  );
+}
 
 export default App;
