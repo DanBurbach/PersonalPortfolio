@@ -42,16 +42,22 @@ education, work experience, and your technical/personal interests.
   React, CSS, HTML
 
   [Materialize](https://materializecss.com/)
+  UI effects
 
   [Material-UI](https://material-ui.com/)
+  UI effects
 
   [react-materialize](https://react-materialize.github.io/#/)
+  UI effects
 
   [react-pure-grid](https://www.npmjs.com/package/react-pure-grid)
+  UI layout
 
   [formspree.io](https://formspree.io/)
+  email contact form
 
   [particles.js](https://vincentgarreau.com/particles.js/)
+  background UI effects
 
 ### __Version__
 
