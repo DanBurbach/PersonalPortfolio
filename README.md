@@ -12,23 +12,13 @@ education, work experience, and your technical/personal interests.
 
   Using [Draw.io](https://www.draw.io/), I created a tree component chart to detail the layout of the routing and connectivity:
 
-  ![Component Tree](https://raw.githubusercontent.com/DanBurbach/PersonalPortfolio/master/src/assets/images/PersonalPortfolioTree.jpg)
+  ![Component Tree](https://github.com/DanBurbach/PersonalPortfolio/blob/master/src/images/PersonalPortfolioTree.jpg?raw=true)
 
 ## __Future Development__
-
-  * Add personal content
-
-  * Links to outside work
-
-  * Images of activities, travel, concepts, projects and etc.
 
   * Dynamic flow of content (Parallax perfected on each page)
 
   - Possibilities:
-
-  contact form: sends an email or somesort of contact directly to me (is this possible?)
-
-  animated imagery: using a gif or other file to give the impression of movement
 
   dark mode: because, why not???
 
@@ -57,8 +47,6 @@ education, work experience, and your technical/personal interests.
 
   [react-materialize](https://react-materialize.github.io/#/)
 
-  [react-parallax](https://www.npmjs.com/package/react-parallax)
-
   [react-pure-grid](https://www.npmjs.com/package/react-pure-grid)
 
   [formspree.io](https://formspree.io/)
@@ -72,8 +60,6 @@ Alpha v0.1
 ### License
 Licensed under the MIT license.
 
-Copyright <2019> <Daniel Burbach>
-
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"),to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense,
 and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -82,3 +68,6 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
 WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+Copyright 2019 Daniel Burbach
