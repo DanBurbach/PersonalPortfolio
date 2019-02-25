@@ -1,6 +1,6 @@
 import React from 'react';
-import { Parallax } from 'react-parallax';
 import ParticlesDisplay from './ParticlesDisplay';
+import { Parallax } from 'react-materialize';
 
 function MainSplash() {
 
@@ -13,58 +13,19 @@ function MainSplash() {
 
   return (
     <div style = {mainSplashAnimate}>
-    <ParticlesDisplay/>
-      <Parallax
-        blur={0}
-        bgImage= {require('../images/SplashAlhambra1.jpg')}
-        bgImageAlt="Alhambra"
-        strength={900}
-      >
-        <div style={{ height: '400px' }} />
-      </Parallax>
-      <div class="section white">
-        <div class="row container">
-          <h2 class="header">Welcome</h2>
-          <p class="grey-text text-darken-3 lighten-3">Here is just a little example of what I am working on. This is called a parrallax and it allows me to have two images on your monitor, display the content that I find that is most important to share with you, AND allow my images to still be shared without them losing their place.</p>
-        </div>
+      <ParticlesDisplay/>
+      <div class = 'container'>
+      <div>
+       <Parallax imageSrc="https://ob9a8415roh4djoj110c31a1-wpengine.netdna-ssl.com/wp-content/uploads/2017/03/alhambra-palace.jpg"/>
       </div>
-
-      <Parallax
-        blur={0}
-        bgImage={require('../images/SplashBarcelona1.jpg')}
-        bgImageAlt="Barcelona"
-        strength={900}
-      >
-        <div style={{ height: '400px' }} />
-      </Parallax>
-      <div class="section white">
-        <div class="row container">
-          <p class="grey-text text-darken-3 lighten-3">Here is just a little example of what I am working on. This is called a parrallax and it allows me to have two images on your monitor, display the content that I find that is most important to share with you, AND allow my images to still be shared without them losing their place.</p>
+      <div class="section transparent">
+        <h2 className="header white-text">Welcome</h2>
+        <p className="white-text text-darken-3 lighten-3"><em>The more I study, the more insatiable do I feel my genius for it to be. Understand well as I may, my comprehension can only be an infinitesimal fraction of all I want to understand. That brain of mine is something more than merely mortal; as time will show.  -- Ada Lovelace</em></p>
         </div>
+      <div>
+       <Parallax imageSrc="https://ob9a8415roh4djoj110c31a1-wpengine.netdna-ssl.com/wp-content/uploads/2017/03/alhambra-palace.jpg"/>
       </div>
-
-      <Parallax
-        blur={0}
-        bgImage={require('../images/SplashBarcelona1.jpg')}
-        bgImageAlt="Barcelona"
-        strength={900}
-      >
-        <div style={{ height: '400px' }} />
-      </Parallax>
-      <div class="section white">
-        <div class="row container">
-          <p class="grey-text text-darken-3 lighten-3">Here is just a little example of what I am working on. This is called a parrallax and it allows me to have two images on your monitor, display the content that I find that is most important to share with you, AND allow my images to still be shared without them losing their place.</p>
-        </div>
-      </div>
-
-      <Parallax
-        blur={0}
-        bgImage={require('../images/SplashBarcelona1.jpg')}
-        bgImageAlt="Barcelona"
-        strength={900}
-      >
-        <div style={{ height: '400px' }} />
-      </Parallax>
+    </div>
     </div>
   );
 }
