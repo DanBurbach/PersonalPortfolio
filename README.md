@@ -16,12 +16,17 @@ education, work experience, and your technical/personal interests.
 
 ## __Future Development__
 
+  * Fade in from bottom effect on load of pages
+
+  * Integration of screenshots, images, and main splash page having linked images to each other page (besides relying just on navbar)
+
   * Dynamic flow of content (Parallax perfected on each page)
+  
+  * Form of contact email looking more presentable
 
   - Possibilities:
 
-  dark mode: because, why not???
-
+  * Make everything on just one page with click to section of page. Limiting routing and excess code.
 
 ## __Setup/Installation Requirements__
 
