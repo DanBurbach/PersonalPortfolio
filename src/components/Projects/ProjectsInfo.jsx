@@ -14,7 +14,7 @@ function ProjectsInfo(props){
         <div style={letters}>
           <h4>{props.projectname}</h4>
           <p><em>{props.description}</em></p>
-          <img src= {props.screenimage}/>
+          <img src= {props.screenimage} height='80px'/>
           <p><em>{props.language}</em></p>
           <a href={props.link}>Link To Project</a>
         </div>
