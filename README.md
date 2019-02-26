@@ -21,7 +21,7 @@ education, work experience, and your technical/personal interests.
   * Integration of screenshots, images, and main splash page having linked images to each other page (besides relying just on navbar)
 
   * Dynamic flow of content (Parallax perfected on each page)
-  
+
   * Form of contact email looking more presentable
 
   - Possibilities:
@@ -53,6 +53,9 @@ education, work experience, and your technical/personal interests.
   UI effects
 
   [react-materialize](https://react-materialize.github.io/#/)
+  UI effects
+
+  [react-parallax](https://www.npmjs.com/package/react-parallax)
   UI effects
 
   [react-pure-grid](https://www.npmjs.com/package/react-pure-grid)
