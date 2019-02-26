@@ -1,14 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { SideNav, SideNavItem, Button } from 'react-materialize';
-import ProfilePic from '../images/ProfilePic.jpg';
+// import ProfilePic from 'https://github.com/DanBurbach/PersonalPortfolio/blob/master/src/images/ProfilePic.jpg?raw=true';
 
 
 function Navigation () {
 
   const mainSidebar = {
-    backgroundImage:'url(http://www.qygjxz.com/data/out/76/5818681-facets-wallpaper.jpg)',
-    color: 'white'
+    color: 'black'
   };
 
   return (
@@ -19,20 +18,18 @@ function Navigation () {
           trigger={<Button class="waves-effect waves-light btn">Menu</Button>}
           options={{ closeOnClick: true }}>
 
-
           <div class="container">
             <div class="col">
               <div class="row">
-                <img class="circle" z-index="10" height = "200px" src={ProfilePic}/>
-                <img src="http://www.qygjxz.com/data/out/76/5818681-facets-wallpaper.jpg" z-index="5"/>
+                <img class="circle" z-index="10" height = "200px" src='https://github.com/DanBurbach/PersonalPortfolio/blob/master/src/images/ProfilePic.jpg?raw=true'/>
               </div>
             </div>
           </div>
 
           <SideNavItem divider/>
-
-          <SideNavItem>Daniel Burbach</SideNavItem>
-          <SideNavItem>ArealEMAIL@email.com</SideNavItem>
+          <div class= "container">
+            <p><h5>Daniel Burbach</h5></p>
+          </div>
           <SideNavItem divider/>
           <SideNavItem><Link to="/projects">Projects</Link></SideNavItem>
           <SideNavItem><Link to="/education">Education</Link></SideNavItem>
