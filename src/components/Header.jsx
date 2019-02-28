@@ -1,7 +1,8 @@
 import React from 'react';
+import { Button } from 'react-materialize';
+import { NavLink } from 'react-router-dom';
 
 function Header(){
-
   const homeButton = {
     color: 'white',
     textDecoration: 'none'
@@ -9,7 +10,7 @@ function Header(){
 
   return (
     <div>
-      <a class="waves-effect waves-light btn" href="/" style={homeButton}>Home</a>
+      <Button ><NavLink to='/' style={homeButton}>Home</NavLink></Button>
     </div>
   );
 }

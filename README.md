@@ -55,7 +55,7 @@ education, work experience, and your technical/personal interests.
   [react-materialize](https://react-materialize.github.io/#/)
   UI effects
 
-  [react-parallax](https://www.npmjs.com/package/react-parallax)
+  [react-scroll-parallax](https://www.npmjs.com/package/react-scroll-parallax)
   UI effects
 
   [react-pure-grid](https://www.npmjs.com/package/react-pure-grid)

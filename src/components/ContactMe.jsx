@@ -1,5 +1,5 @@
 import React from 'react';
-import ParticlesDisplay from './ParticlesDisplay';
+import ParticlesDisplay from '../assets/styles/ParticlesDisplay';
 
 
 class ContactMe extends React.Component {

@@ -1,45 +1,54 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { SideNav, SideNavItem, Button } from 'react-materialize';
-// import ProfilePic from 'https://github.com/DanBurbach/PersonalPortfolio/blob/master/src/images/ProfilePic.jpg?raw=true';
+import profilePic from '../assets/images/ProfilePic.jpg';
 
 
 function Navigation () {
 
+  const logo = require('../resources/images/ProfilePic.jpg');
   const mainSidebar = {
     color: 'black'
   };
 
   return (
     <div>
-      <div>
-        <SideNav
-          style = {mainSidebar}
-          trigger={<Button class="waves-effect waves-light btn">Menu</Button>}
-          options={{ closeOnClick: true }}>
+      <SideNav
+        style = {mainSidebar}
+        trigger={<Button>Menu</Button>}
+        options={{ closeOnClick: true }}>
 
           <div class="container">
             <div class="col">
               <div class="row">
-                <img class="circle" z-index="10" height = "200px" src='https://github.com/DanBurbach/PersonalPortfolio/blob/master/src/images/ProfilePic.jpg?raw=true'/>
+                <img src={profilePic} class="circle" z-index="10" height = "200px"/>
               </div>
             </div>
           </div>
 
-          <SideNavItem divider/>
-          <div class= "container">
-            <p><h5>Daniel Burbach</h5></p>
-          </div>
-          <SideNavItem divider/>
-          <SideNavItem><Link to="/projects">Projects</Link></SideNavItem>
-          <SideNavItem><Link to="/education">Education</Link></SideNavItem>
-          <SideNavItem><Link to="/interests">Interests</Link></SideNavItem>
-          <SideNavItem><Link to="/personal">Personal</Link></SideNavItem>
-          <SideNavItem divider/>
-          <SideNavItem><Link to="/contactme">Contact Me</Link></SideNavItem>
-        </SideNav>
+        <SideNavItem divider/>
 
-      </div>
+          <div class= "container">
+            <h5>Daniel Burbach</h5>
+          </div>
+
+        <SideNavItem divider/>
+
+        <ul>
+          <li><NavLink to="/projects">Projects</NavLink></li>
+          <li><NavLink to="/education">Education</NavLink></li>
+          <li><NavLink to="/interests">Interests</NavLink></li>
+          <li><NavLink to="/personal">Personal</NavLink></li>
+        </ul>
+
+        <SideNavItem divider/>
+
+          <ul>
+            <li><NavLink to="/contactme">Contact Me</NavLink></li>
+          </ul>
+
+      </SideNav>
+
     </div>
   );
 }
