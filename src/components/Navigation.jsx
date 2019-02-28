@@ -3,10 +3,9 @@ import { NavLink } from 'react-router-dom';
 import { SideNav, SideNavItem, Button } from 'react-materialize';
 import profilePic from '../assets/images/ProfilePic.jpg';
 
+console.log(profilePic);
 
 function Navigation () {
-
-  const logo = require('../resources/images/ProfilePic.jpg');
   const mainSidebar = {
     color: 'black'
   };
